@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 900;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* to debug font implementation */
+    font-synthesis: none;
+    font-family: Roboto;
+}
+
+ul {list-style: none;}
+
+
+.header,
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    padding: 15px 200px;
+}
+
+.credits {
+    font-size: 0.5rem;
+    font-weight: 300;
+    border-left: 1px solid;
+    padding-left: 0.25rem;
+}
+
+a {color: inherit;}
+
+.nav,
+.hero-regular,
+.quotes {
+    color: #E5E7EB;
+    font-size: 1.125rem;
+}
+
+
+.header {flex-direction: column;}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.nav {display: flex;}
+
+.nav a {
+    text-decoration: none;
+    padding: 10px 13px;
+    color: inherit;
+}
+
+
+.nav a:hover, 
+.hero-image + .credits a:hover {
+    background-color: #3a4657;
+    text-decoration: none;
+}
+
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.hero-image {max-height: 300px;}
+
+.hero-image + .credits {
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+}
+
+.hero-text {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 300px;
+    gap: 12px;
+}
+
+.hero-bold {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-button {
+    align-self: flex-start;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    width: 7rem;
+}
+.hero-button a {text-decoration: inherit;}
+.hero-button:hover {background-color: #3a4657;}
