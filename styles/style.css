@@ -18,6 +18,12 @@
 
 @font-face {
     font-family: Roboto;
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Roboto;
     src: url('../fonts/Roboto-Black.ttf') format('truetype');
     font-weight: 900;
 }
@@ -197,4 +203,48 @@ a {color: inherit;}
     font-weight: 500;
     align-self: flex-end;
     margin-right: 3rem;
+}
+
+.cta-section {
+    margin: 160px 120px;
+    padding: 60px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+
+.cta-bold,
+.cta-button a {
+    color: #F9FAF8;
+}
+
+.cta-bold {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+}
+
+.cta-regular {
+    color: #E5E7EB;
+}
+
+.cta-button {
+    background-color: inherit;
+    padding: 8px;
+    border: solid #F9FAF8 2px;
+    border-radius: 8px;
+    width: 7rem;
+    font-weight: 500;
+    flex: 1 0 auto;
+}
+
+.cta-button a {
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #1c55b1;
 }
