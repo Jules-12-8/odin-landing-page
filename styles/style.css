@@ -19,8 +19,14 @@
 @font-face {
     font-family: Roboto;
     src: url('../fonts/Roboto-Black.ttf') format('truetype');
-    font-style: normal;
     font-weight: 900;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 300;
 }
 
 * {
@@ -169,4 +175,26 @@ a {color: inherit;}
 .info-image-text {
     color: #1F2937;
     margin-top: 20px;
+}
+
+.quote-section {
+    padding: 160px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2.125rem;
+    margin-bottom: 10px;
+}
+
+.quote-ref {
+    font-size: 1.125rem;
+    font-weight: 500;
+    align-self: flex-end;
+    margin-right: 3rem;
 }
