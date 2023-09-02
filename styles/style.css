@@ -133,6 +133,10 @@ a {color: inherit;}
 .hero-button:hover {background-color: #3a4657;}
 
 
+.info-section {
+    padding: 0px 120px;
+}
+
 .info-title {
     color: #1F2937;
     font-weight: 900;
@@ -149,6 +153,15 @@ a {color: inherit;}
     margin-bottom: 100px;
 }
 
+.info-image-container {
+    max-width: 240px;
+}
+
 .info-image-container img {
-    max-width: 320px;
+    max-width: inherit;
+}
+
+.info-image-text {
+    color: #1F2937;
+    margin-top: 20px;
 }
