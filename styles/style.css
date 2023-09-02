@@ -139,7 +139,7 @@ a {color: inherit;}
 
 
 .info-section {
-    padding: 0px 120px;
+    padding: 60px 100px;
 }
 
 .info-title {
@@ -147,7 +147,7 @@ a {color: inherit;}
     font-weight: 900;
     font-size: 2.25rem;
     text-align: center;
-    margin: 50px;
+    margin-bottom: 60px;
 }
 
 .info-row {
