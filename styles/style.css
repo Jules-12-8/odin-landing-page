@@ -238,7 +238,7 @@ a {color: inherit;}
     border-radius: 8px;
     width: 7rem;
     font-weight: 500;
-    flex: 1 0 auto;
+    flex: 0 0 auto;
 }
 
 .cta-button a {
