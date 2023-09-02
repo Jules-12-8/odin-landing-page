@@ -140,16 +140,20 @@ a {color: inherit;}
 
 .hero-button {
     align-self: flex-start;
+    text-align: center;
     color: #F9FAF8;
     background-color: #3882F6;
     padding: 8px;
     font-weight: 500;
+    text-decoration: none;
     border: none;
     border-radius: 8px;
     width: 7rem;
 }
-.hero-button a {text-decoration: inherit;}
-.hero-button:hover {background-color: #3a4657;}
+
+.hero-button:hover {
+    background-color: #3a4657;
+}
 
 
 .info-section {
@@ -219,7 +223,7 @@ a {color: inherit;}
 }
 
 .cta-bold,
-.cta-button a {
+.cta-button {
     color: #F9FAF8;
 }
 
@@ -235,16 +239,14 @@ a {color: inherit;}
 
 .cta-button {
     background-color: inherit;
+    text-align: center;
     padding: 8px;
     border: solid #F9FAF8 2px;
     border-radius: 8px;
+    text-decoration: none;
     width: 7rem;
     font-weight: 500;
     flex: 0 0 auto;
-}
-
-.cta-button a {
-    text-decoration: none;
 }
 
 .cta-button:hover {
